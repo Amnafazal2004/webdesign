@@ -22,11 +22,11 @@ const Contact = () => {
     <div className="flex flex-col md:flex-row gap-8 md:gap-16 text-gray-300">
       <p className="flex items-center gap-3">
        
-       📞  +92 300 1234567
+       📞  +92 313 2402256
       </p>
       <p className="flex items-center gap-3">
         
-      ✉️   hello@niwebs.studio
+      ✉️   fazalamna666@gmail.com
       </p>
       <p className="flex items-center gap-3">
        
