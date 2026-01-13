@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {toast} from "sonner";
+import { CyGroteskmed, CyGroteskreg } from '@/lib/fonts';
 
 export default function Contact() {
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -36,12 +37,12 @@ export default function Contact() {
           
           {/* Contact Info */}
           <div className="space-y-6">
-            <h2 className="text-4xl font-bold">Contact Us</h2>
-            <p className="text-gray-400 max-w-md">
+            <h2 className={`${CyGroteskmed.className} text-4xl font-bold`}>Contact Us</h2>
+            <p className={`${CyGroteskreg.className} text-gray-400 max-w-md`}>
               Ready to start your project or have a question? Reach out to us, we’d love to talk.
             </p>
 
-            <div className="space-y-4 text-gray-300">
+            <div className={`${CyGroteskreg.className} space-y-4 text-gray-300`}>
               <div>
                 <p className="text-sm text-gray-500">WhatsApp</p>
                 <p className="font-medium">+92 313 2404456</p>
@@ -61,8 +62,8 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="bg-white rounded-3xl p-10 shadow-lg">
-            <h3 className="text-2xl font-semibold mb-6 text-black">
-              Send us a message
+            <h3 className={` ${CyGroteskmed.className} text-2xl font-semibold mb-6 text-black`}>
+              Send us an Email
             </h3>
 
             <form
