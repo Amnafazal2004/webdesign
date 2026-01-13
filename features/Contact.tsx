@@ -71,6 +71,12 @@ export default function Contact() {
               className="grid gap-4"
             >
               <input
+                name="subject"
+                className="p-3 rounded-md border text-black"
+                placeholder="Subject"
+                required
+              />
+              <input
                 name="from_name"
                 className="p-3 rounded-md border text-black"
                 placeholder="Name"
