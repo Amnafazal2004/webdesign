@@ -7,7 +7,7 @@ export default function Home() {
     <main className="bg-[#F7F1E8]  text-black">
       {/* Header */}
       <header className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Link href="/" className={`${CyGroteskmed.className} text-xl`}>N.I.Webs</Link>
+        <Link href="/" className={`${CyGroteskmed.className} text-xl`}>NextByte Studio</Link>
         <nav className="hidden md:flex gap-8 text-sm items-center">
           <Link href="#why" className="hover:text-[#C9A24D] transition">Why Us</Link>
           <Link href="#about" className="hover:text-[#C9A24D] transition">About</Link>

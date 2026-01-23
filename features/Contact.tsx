@@ -111,7 +111,7 @@ export default function Contact() {
       </section>
 
       <footer className="text-center text-sm text-gray-500 py-6 bg-[#F7F1E8]">
-        © {new Date().getFullYear()} N.I.Webs. All rights reserved.
+        © {new Date().getFullYear()} NextByte Studio. All rights reserved.
       </footer>
     </div>
   );
