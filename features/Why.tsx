@@ -8,18 +8,24 @@ const Why = () => {
   const headingRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setVisible(entry.isIntersecting); // update every time it enters/exits
-      },
-      { threshold: 0.3 }
-    );
+useEffect(() => {
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      setVisible(entry.isIntersecting);
+    },
+    { threshold: 0.3 }
+  );
 
-    if (headingRef.current) observer.observe(headingRef.current);
+  if (headingRef.current) {
+    observer.observe(headingRef.current);
+  }
 
-    return () => headingRef.current && observer.unobserve(headingRef.current);
-  }, []);
+  return () => {
+    if (headingRef.current) {
+      observer.unobserve(headingRef.current);
+    }
+  };
+}, []);
 
   return (
     <section id="why" className="bg-black text-white py-32">
