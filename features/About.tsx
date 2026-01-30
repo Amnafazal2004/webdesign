@@ -36,7 +36,7 @@ const About = () => {
           </h2>
 
           <p className={`${CyGroteskreg.className} text-gray-600 mb-4`}>
-            NiWebs is a design-focused studio built for startups, founders,
+            NextByteStudio is a design-focused studio built for startups, founders,
             and growing businesses who value clarity and quality.
           </p>
 
