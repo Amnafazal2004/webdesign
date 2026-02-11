@@ -4,14 +4,13 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="bg-[#F7F1E8] pb-10" id="hero">
-      <section className="max-w-5xl mx-auto px-6 text-center py-28 ">
+      <section className="max-w-5xl mx-auto px-6 text-center pt-48 pb-28 ">
         <h1 className={`${CyGrotesk.className} text-5xl md:text-6xl leading-tight`}>
-          We design websites that help
-          <span className="text-[#C9A24D]"> businesses grow</span>
+          Crafting Websites and Apps That
+          <span className="text-[#C9A24D]">  Drive Success</span>
         </h1>
         <p className={`${CyGroteskreg.className} mt-6 text-gray-600 max-w-2xl mx-auto`}>
-          A modern web design & UI/UX studio focused on building clean,
-          scalable, and conversion-driven digital experiences.
+         At NextByte Studio, we specialize in designing modern websites, mobile apps, and UI/UX solutions that are clean, scalable, and conversion-focused—helping your brand stand out and succeed online.
         </p>
         <div className="mt-10">
           <Link

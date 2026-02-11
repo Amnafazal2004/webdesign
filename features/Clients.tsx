@@ -2,12 +2,15 @@
 "use client"
 import Image from "next/image";
 import snapon from "@/Assets/snapon.svg";
-import simens from "@/Assets/simens.png";
+import continental from "@/Assets/continental.svg";
+import troy from "@/Assets/troy.svg";
+import bca from "@/Assets/bca.svg";
+import sports from "@/Assets/sports.svg";
 import dash from "@/Assets/dash.jpg";
 import asos from "@/Assets/asos.png";
 
 const logos = [
-  snapon,simens,dash,asos
+  snapon,sports,dash,asos,bca,continental,troy
 ];
 
 export default function LogosSection() {

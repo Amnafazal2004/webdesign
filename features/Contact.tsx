@@ -92,6 +92,14 @@ export default function Contact() {
                 required
               />
 
+               <input
+                name="Phonenumber"
+                type="text"
+                className="p-3 rounded-md border text-black"
+                placeholder="Phone Number"
+                required
+              />
+
               <textarea
                 name="message"
                 className="p-3 rounded-md border text-black"
