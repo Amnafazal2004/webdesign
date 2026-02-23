@@ -25,12 +25,12 @@ const Hero = () => {
 {/* What We Design */}
 <section id="services" className="relative">
   <div className="max-w-7xl mx-auto px-6">
-    <div className="bg-[#FBF7F2] border border-[#E8DED3] rounded-[48px] px-8 md:px-12 py-16 md:py-20">
+    <div className="bg-black border border-[#E8DED3] rounded-[48px] px-8 md:px-12 py-16 md:py-20">
       
       {/* Section Header */}
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <p className="text-sm tracking-wide text-[#C9A24D] mb-2">OUR SERVICES</p>
-        <h2 className={`${CyGroteskmed.className} text-3xl md:text-4xl leading-snug`}>
+        <h2 className={`${CyGroteskmed.className} text-3xl md:text-4xl text-white leading-snug`}>
           What we design
         </h2>
         <p className={`${CyGroteskreg.className} text-gray-600 mt-4`}>
